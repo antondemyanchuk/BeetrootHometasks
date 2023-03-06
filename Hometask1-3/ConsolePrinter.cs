@@ -3,14 +3,17 @@ namespace Hometask1_3
 {
     internal class ConsolePrinter
     {
+        int counter = 1;
         public void MathExercisesPrinter(int result)
         {
-            Console.WriteLine($"The result is {result} \n");
+            Console.WriteLine($"The result of the Math exercise #{counter} is {result} \n");
+            counter++;
         }
 
         public void MathExercisesPrinter(double result) 
         {
-            Console.WriteLine($"The result is {result} \n");
+            Console.WriteLine($"The result of the Math exercise #{counter} is {result} \n");
+            counter++;
         }
 
         public void DaysToNewYearPrinter(int result) 
